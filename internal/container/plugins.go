@@ -1,6 +1,7 @@
 package container
 
 import (
+	demoPlugin "github.com/peterfox/roadrunner-plugin-demo"
 	"github.com/spiral/roadrunner/v2/plugins/broadcast"
 	"github.com/spiral/roadrunner/v2/plugins/gzip"
 	"github.com/spiral/roadrunner/v2/plugins/headers"
@@ -79,5 +80,7 @@ func Plugins() []interface{} {
 		&activity.Plugin{},
 		&workflow.Plugin{},
 		&temporalClient.Plugin{},
+
+		&demoPlugin.Plugin{},
 	}
 }
