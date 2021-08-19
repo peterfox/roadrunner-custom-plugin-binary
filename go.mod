@@ -10,6 +10,7 @@ require (
 	github.com/kami-zh/go-capturer v0.0.0-20171211120116-e492ea43421d
 	github.com/mattn/go-runewidth v0.0.13
 	github.com/olekukonko/tablewriter v0.0.5
+	github.com/peterfox/roadrunner-plugin-demo v1.0.0 // indirect
 	github.com/spf13/cobra v1.1.3
 	// SPIRAL ------------
 	github.com/spiral/endure v1.0.2
